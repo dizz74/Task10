@@ -34,10 +34,6 @@ namespace Task10
 
     class Angle
     {
-
-
-
-
         private int gradus;
         private int minutes;
         private int seconds;
