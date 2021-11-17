@@ -48,10 +48,8 @@ namespace Task10
         {
             set
             {
-                if (value >= 0 && value < 360)
-                    this.gradus = value;
-                else
-                    Console.WriteLine("Градус д.б. от 0 до 360");
+                if (value >= 0 && value < 360) this.gradus = value;
+                else Console.WriteLine("Градус д.б. от 0 до 360");
             }
             get
             {
